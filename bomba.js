@@ -1,70 +1,70 @@
 const dictionary = ["ABENDMUSIK", "ABENDMUSIKEN", "ABITUR", "ABITURS", "AFFENPINSCHER", "AFFENPINSCHERS", "AMTMAN", "AMTMANS", "ANSCHAUUNG", "ANSCHAUUNGEN", "APFELSTRUDEL", "APFELSTRUDELS", "AUF", "AUFGABE", "AUFGABEN", "AUFGABES", "AUFGEHOBEN", "AUFHEBUNG", "AUFHEBUNGEN", "AUFS", "AUFWUCHS", "AUSDRUCKSTANZ", "AUSDRUCKSTANZE", "AUTOBAHN", "AUTOBAHNEN", "AUTOBAHNS", "BAUMKUCHEN", "BEREITSCHAFTSPOTENTIAL", "BEREITSCHAFTSPOTENTIALS", "BERGSCHRUND", "BERGSCHRUNDS", "BEWUSSTSEINSLAGE", "BEWUSSTSEINSLAGEN", "BIERWURST", "BIERWURSTS", "BILDUNGSROMAN", "BILDUNGSROMANE", "BISMARCK", "BISMARCKS", "BLITZKRIEG", "BLITZKRIEGS", "BLUTWURST", "BLUTWURSTS", "BONSPIEL", "BONSPIELS", "BRATWURST", "BRATWURSTS", "BRAUNSCHWEIGER", "BRAUNSCHWEIGERS", "BREMSSTRAHLUNG", "BREMSSTRAHLUNGS", "CAPELLMEISTER", "CAPELLMEISTERS", "CURRYWURST", "CURRYWURSTS", "DIRNDL", "DIRNDLS", "DOBERMAN", "DOBERMANN", "DOBERMANNS", "DOBERMANS", "DUMMKOPF", "DUMMKOPFS", "DURCHKOMPONIERT", "EDELWEISS", "EDELWEISSES", "EDELZWICKER", "EIGENBASES", "EIGENBASIS", "EIGENCLASS", "EIGENCLASSES", "EIGENCURVE", "EIGENCURVES", "EIGENDECOMPOSITION", "EIGENDECOMPOSITIONS", "EIGENFACE", "EIGENFACES", "EIGENFORM", "EIGENFORMS", "EIGENFREQUENCIES", "EIGENFREQUENCY", "EIGENFUNCTION", "EIGENFUNCTIONS", "EIGENGAP", "EIGENGAPS", "EIGENGRAU", "EIGENGRAUS", "EIGENIMAGE", "EIGENIMAGES", "EIGENKET", "EIGENKETS", "EIGENLICHT", "EIGENLICHTS", "EIGENMODE", "EIGENMODES", "EIGENOPERATOR", "EIGENOPERATORS", "EIGENSPACE", "EIGENSPACES", "EIGENSPECTRA", "EIGENSPECTRUM", "EIGENSPINOR", "EIGENSPINORS", "EIGENSTRAIN", "EIGENSTRAINS", "EIGENSTRUCTURE", "EIGENSTRUCTURES", "EIGENSUBSPACE", "EIGENSUBSPACES", "EIGENTONE", "EIGENTONES", "EIGENVALUE", "EIGENVALUES", "EIGENVECTOR", "EIGENVECTORS", "EIGENVOICE", "EIGENVOICES", "EIGENWELT", "EIGENWELTS", "ENTWICKLUNGSROMAN", "ENTWICKLUNGSROMANE", "ERSATZ", "FESTSCHRIFT", "FESTSCHRIFTEN", "FESTSCHRIFTS", "FLAMMKUCHEN", "FLUGEL", "FLUGELHORN", "FLUGELHORNS", "FLUGELMAN", "FLUGELMEN", "FLUGELS", "FRANKFORT", "FRANKFORTS", "FRANKFURT", "FRANKFURTER", "FRANKFURTS", "FREMD", "FREMDS", "FUHRER", "FUHRERPRINZIP", "FUHRERPRINZIPS", "FUHRERS", "GEBRAUCHSMUSIK", "GEDANKENEXPERIMENT", "GEDANKENEXPERIMENTS", "GEGENSCHEIN", "GEGENSCHEINS", "GEGENSTANDSTHEORIE", "GEGENSTANDSTHEORIES", "GELANDESPRUNG", "GELANDESPRUNGS", "GEMEINSCHAFT", "GEMEINSCHAFTEN", "GEMEINSCHAFTSGEFUHL", "GEMEINSCHAFTSGEFUHLE", "GEMUTLICHKEIT", "GEMUTLICHKEITEN", "GESAMTKUNSTWERK", "GESAMTKUNSTWERKS", "GESELLSCHAFT", "GESELLSCHAFTEN", "GESUNDHEIT", "GLOCKENSPIEL", "GLOCKENSPIELS", "GUGELHUPF", "GUGELHUPFS", "GUGLHUPF", "GUGLHUPFS", "HASENPFEFFER", "HEILIGENSCHEIN", "HEILIGENSCHEINS", "HERRENVOLK", "HERRENVOLKS", "HONIGKUCHEN", "INFOBAHN", "INFOBAHNS", "JAEGER", "JAEGERS", "JAGDTERRIER", "JAGDTERRIERS", "JAGDWURST", "JAGDWURSTS", "JAGER", "KAFFEEKLATSCH", "KAFFEEKLATSCHEN", "KAFFEEKLATSCHES", "KAISERSCHMARRN", "KAPELLMEISTER", "KAPELLMEISTERS", "KATZBALGER", "KATZBALGERS", "KATZENJAMMER", "KATZENJAMMERS", "KINDERSPIEL", "KINDERSPIELS", "KIRSCHWASSER", "KIRSCHWASSERS", "KITSCH", "KITSCHES", "KLATSCH", "KLATSCHES", "KLETTERSCHUH", "KLETTERSCHUHE", "KNACKWURST", "KNACKWURSTS", "KNOCKWURST", "KNOCKWURSTS", "KOCHWURST", "KOCHWURSTS", "KRIEGSPIEL", "KRIEGSPIELS", "KRIEGSSPIEL", "KRIEGSSPIELS", "KRUMMHOLZ", "KRUMMHORN", "KRUMMHORNS", "KUCHEN", "KUCHENS", "KUGELHOPF", "KUGELHOPS", "KULTURKAMPF", "KULTURKAMPFES", "KULTURKAMPFS", "KUMMERBUND", "KUMMERBUNDS", "LANDJAEGER", "LANDJAGER", "LANDJAGERS", "LANDSKNECHT", "LANDSKNECHTS", "LEBKUCHEN", "LEBKUCHENHERZ", "LEBKUCHENHERZEN", "LEBKUCHENHERZES", "LEBKUCHENS", "LEHR", "LEHRJAHRE", "LEHRMAN", "LEHRMEN", "LEHRS", "LUFTMENSCH", "LUFTMENSCHEN", "MACHTPOLITIK", "MACHTPOLITIKS", "MARGRAVE", "MARGRAVES", "MEISTER", "MEISTERGENSANGE", "MEISTERGESANG", "MEISTERS", "METTWURST", "MOZARTKUGEL", "MOZARTKUGELN", "NACHSCHLAG", "NACHSCHLAGS", "PALSGRAVE", "PALSGRAVES", "PFEFFERKUCHEN", "PINSCHER", "PINSCHERS", "RAUSCHPFEIFE", "RAUSCHPFEIFEN", "REALPOLITIK", "REALPOLITIKER", "REALPOLITIKERS", "REALPOLITIKS", "REICHSLAND", "REICHSLANDS", "REICHSMARK", "REICHSMARKS", "ROTTWEILER", "SAUERBRATEN", "SAUERBRATENS", "SAUERKRAUT", "SAUERKRAUTS", "SCHADENFREUDE", "SCHADENFREUDES", "SCHAFKOPF", "SCHAFSKOPF", "SCHERENSCHNITTE", "SCHERENSCHNITTES", "SCHLIERE", "SCHLIEREN", "SCHLIERES", "SCHMALZ", "SCHMALZES", "SCHMALZIER", "SCHMALZIEST", "SCHMALZY", "SCHNAPPER", "SCHNAPPERS", "SCHNAPPS", "SCHNAPPSES", "SCHNAPS", "SCHNAPSES", "SCHNAUZER", "SCHNAUZERS", "SCHNITZEL", "SCHNITZELS", "SCHREKLICH", "SCHROD", "SCHRODS", "SCHUETZENFEST", "SCHUETZENFESTE", "SCHUETZENFESTS", "SCHUHPLATTLER", "SCHUHPLATTLERS", "SCHUPFNUDEL", "SCHUPFNUDELN", "SCHUSS", "SCHUSSES", "SCHUTZENFEST", "SCHUTZENFESTE", "SCHUTZENFESTS", "SCHUTZHUND", "SCHWARMEREI", "SCHWARMERISCH", "SCHWARTZ", "SCHWARTZE", "SCHWARZBIER", "SCHWARZBIERS", "SINGSPIEL", "SINGSPIELE", "SINGSPIELS", "SITZKRIEG", "SITZKRIEGS", "SPAETZLE", "SPAETZLES", "SPATZLE", "SPATZLES", "SPINNBARKEIT", "SPINNBARKEITS", "SPITZ", "SPITZENBERG", "SPITZENBERGS", "SPITZENBURG", "SPITZES", "STAHLHELM", "STAHLHELME", "STAHLHELMS", "STRUDEL", "STRUDELS", "TANZTHEATER", "UMWELT", "UMWELTEN", "UNTERMENSCH", "UNTERMENSCHEN", "VERFREMDUNGSEFFEKT", "VERFREMDUNGSEFFEKTE", "VOLK", "VOLKS", "VOLKSGEIST", "VOLKSGEISTER", "VOLKSGEMEINSCHAFT", "VOLKSGEMEINSCHAFTEN", "VOLKSLIEDER", "VOLKSLIEDERS", "WALDGRAVE", "WALDGRAVES", "WALDHORN", "WALDHORNS", "WALPURGISNACHT", "WALPURGISNACHTE", "WANDERLUST", "WANDERLUSTS", "WEDEL", "WEDELING", "WEDELN", "WEDELS", "WEHRLITE", "WEHRLITES", "WEIHNACHTSMARKT", "WEIHNACHTSMARKTE", "WEIMARANER", "WEIMARANERS", "WEISE", "WEISED", "WEISEMHEIMERS", "WEISENHEIMER", "WEISES", "WEISSWURST", "WELTANSCHAUUNG", "WELTANSCHAUUNGEN", "WELTSCHMERZ", "WELTSCHMERZEN", "WELTSCHMERZES", "WIENERWURST", "WISSENSCHAFT", "WUNDER", "WUNDERKAMMER", "WUNDERKAMMERN", "WUNDERKIND", "WUNDERKINDER", "WUNDERKINDS", "WUNDERWAFFE", "WUNDERWAFFEN", "WURST", "WURSTS", "ZEITGEBER", "ZEITGEBERS", "ZEITGEIST", "ZIMTSTERN", "ZIMTSTERNE", "ZITTERBEWEGUNG", "ZITTERBEWEGUNGEN", "ZUGZWANG", "ZUGZWANGED", "ZUGZWANGING", "ZUGZWANGS", "ZWEIGELT", "ZWEIGELTS", "ZWEIHANDER", "ZWEIHANDERS", "ZWERGSPITZ", "ZWERGSPITZES", "ZWETSCHGENKUCHEN", "ZWIEBACK", "ZWIEBACKS", "ZWISCHENZUG", "ZWISCHENZUGS"
-
-
 ];
+
+let hintInterval = null;
+let lastSyllable = null;
+
 function get_syl() {
-  var syllable = document.getElementsByClassName("syllable")[0].innerHTML;
-  return syllable;
+  const el = document.getElementsByClassName("syllable")[0];
+  return el ? el.innerText.trim() : "";
 }
 
 function answer() {
-  currentSyllable = get_syl();
-  var words = [];
-  if(currentSyllable != lastSyllable) {
-    var word = "Can't find matching word!";
-    for (var j = 0; j < dictionary.length; j++) {
-      if (dictionary[j].toLowerCase().includes(currentSyllable)){
-        words.push(dictionary[j]);
-      }
-    }
-    var text = "    Words:\n  ";
-    var len = Math.min(6, words.length);
-    for (var j = 0; j < len; j++) {
-    	// randomly choose a word in words
-    	var index = Math.floor(Math.random() * (words.length - 1));
-    	if (j < 3) {
-    		text = text + words[index] + ",  ";
-    		if (j == 2) text = text + "\n";
-    	}
-    	else {
-    		if (j == len - 1) {
-    			text = text + words[index];
-    		}
-    		else {
-    			text = text + words[index] + ",  ";
-    		}
-    	}
+  const currentSyllable = get_syl();
+  if (!currentSyllable) return;
 
-    }
-    document.getElementById("ans").innerText = text;
-    lastSyllable = currentSyllable;
-  }
-}
+  if (currentSyllable === lastSyllable) return;
+  lastSyllable = currentSyllable;
 
-function main() {
-  chrome.runtime.onMessage.addListener(
-    function(request, sender, sendResponse) {
-      var syllable = document.getElementsByClassName("syllable")[0], syllableExists;
-      if(typeof(syllable) == 'undefined' && syllable == null){
-        syllableExists = false;
-      } else {
-        syllableExists = true;
-      }
-      if(syllableExists){
-        const syllable = get_syl(), top = document.querySelector('.quickRules');
-        if(document.getElementById("ans") == null){
-          var ans = document.createElement("p");
-          ans.id = "ans";
-          top.append(ans);
-        }
-        hintInterval = setInterval(answer, 500);
-      }
-    }
+  const words = dictionary.filter(word =>
+    word.includes(currentSyllable.toUpperCase())
   );
+
+  const top = document.querySelector(".quickRules");
+  if (!top) return;
+
+  let ans = document.getElementById("ans");
+  if (!ans) {
+    ans = document.createElement("p");
+    ans.id = "ans";
+    top.appendChild(ans);
+  }
+
+  if (words.length === 0) {
+    ans.innerText = "No match found";
+    return;
+  }
+
+  let text = "Words:\n";
+
+  const len = Math.min(6, words.length);
+
+  for (let i = 0; i < len; i++) {
+    const index = Math.floor(Math.random() * words.length);
+    text += words[index];
+
+    if (i < len - 1) text += ", ";
+    if (i === 2) text += "\n";
+  }
+
+  ans.innerText = text;
 }
 
-var hintInterval, toggle = true, currentSyllable, lastSyllable;
+function start() {
+  if (hintInterval) return;
 
-window.addEventListener("load", function () {
-  main();
+  hintInterval = setInterval(answer, 300);
+}
+
+chrome.runtime.onMessage.addListener((request) => {
+  if (request.greeting === "toggle") {
+    if (hintInterval) {
+      clearInterval(hintInterval);
+      hintInterval = null;
+    } else {
+      start();
+    }
+  }
 });
+
+window.addEventListener("load", start);
