@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html>
-<!-- <head>
-    <title>Bombparty Decoder Extension</title>
-    <meta charset="utf-8">
-</head>
-<style>
-html{
-    height: 316px; 
-    width: 160px;
-}
-body{
-    background-image: url('./images/background.png');
-    margin: 0px;
-}
-img{
-    position: absolute;
-    height: 94px;
-    width: 104px;
-    top: 11px;
-    left: 46px;
-}
+<head>
+  <meta charset="utf-8">
+  <title>Bombparty Extension</title>
 
-</style> -->
-<script src="./index.js"></script>
-<!-- <body>
-<img src="images/bomboff.png">
-<button id="toggle"></button>
-</body> -->
+  <style>
+    html {
+      height: 200px;
+      width: 160px;
+    }
+
+    body {
+      margin: 0;
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    button {
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="images/bomboff.png" width="80">
+
+  <button id="toggle">Toggle</button>
+
+  <script src="index.js"></script>
+</body>
 </html>
