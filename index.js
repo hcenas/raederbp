@@ -2,7 +2,7 @@ var toggle = true;
 
 function send_toggle() {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    chrome.tabs.sendMessage(tabs[0].id, { greeting: "taggle" });
+    chrome.tabs.sendMessage(tabs[0].id, { greeting: "toggle" });
   });
 }
 
